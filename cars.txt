@@ -14,13 +14,13 @@ paese -> VARCHAR(255) - NOTNULL
 città -> VARCHAR(255) - NOTNULL
 condizioni -> VARCHAR(255) - NOTNULL
 descrizione -> TEXT - NULL
-categoria euro -> TINYINT - NOTNULL
-potenza kW -> SMALLINT - NULL
-adatto ai neopatentati - TINYINT - NOTNULL
-numero porte -> TINYINT - NOTNULL
-numero proprietari precedenti -> SMALLINT - NULL
-veicolo fumatore/non fumatore -> TINYINT - NULL
+categoria_euro -> TINYINT - NOTNULL
+potenza_kW -> SMALLINT - NULL
+adatto_neopatentati - TINYINT - NOTNULL
+numero_porte -> TINYINT - NOTNULL
+numero_proprietari_precedenti -> SMALLINT - NULL
+veicolo_fumatore/non_fumatore -> TINYINT - NULL
 climatizzatore -> TINYINT - NOTNULL
 abs - TINYINT -> NULL
-adaptive cruise control -> TINYINT - NULL
-colore carrozzeria -> VARCHAR(255) - NOTNULL
+adaptive_cruise_control -> TINYINT - NULL
+colore_carrozzeria -> VARCHAR(255) - NOTNULL
