@@ -1,0 +1,26 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+Nella repo dovete consegnare un file con tutti i campi della tabella, tipo di dato ed eventuali attributi per ogni campo.
+
+CARS
+
+id -> PRIMARY_KEY(NOTNULL - UNIQUE) - AUTOINCREMENT
+marca -> VARCHAR(255) - NOTNULL 
+modello -> VARCHAR(255) - NOTNULL 
+anno -> YEAR - NOTNULL
+prezzo -> DECIMAL (8,2) - NOTNULL
+carburante -> VARCHAR(255) - NOTNULL
+chilometraggio -> DECIMAL(9,3) - NOTNULL
+paese -> VARCHAR(255) - NOTNULL
+città -> VARCHAR(255) - NOTNULL
+condizioni -> VARCHAR(255) - NOTNULL
+descrizione -> TEXT - NULL
+categoria euro -> TINYINT - NOTNULL
+potenza kW -> SMALLINT - NULL
+adatto ai neopatentati - TINYINT - NOTNULL
+numero porte -> TINYINT - NOTNULL
+numero proprietari precedenti -> INT - NULL
+veicolo fumatore/non fumatore -> TINYINT - NULL
+climatizzatore -> TINYINT - NOTNULL
+abs - TINYINT -> NULL
+adaptive cruise control -> TINYINT - NULL
+colore carrozzeria -> VARCHAR(255)
