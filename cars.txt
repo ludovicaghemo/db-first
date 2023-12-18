@@ -18,9 +18,9 @@ categoria euro -> TINYINT - NOTNULL
 potenza kW -> SMALLINT - NULL
 adatto ai neopatentati - TINYINT - NOTNULL
 numero porte -> TINYINT - NOTNULL
-numero proprietari precedenti -> INT - NULL
+numero proprietari precedenti -> SMALLINT - NULL
 veicolo fumatore/non fumatore -> TINYINT - NULL
 climatizzatore -> TINYINT - NOTNULL
 abs - TINYINT -> NULL
 adaptive cruise control -> TINYINT - NULL
-colore carrozzeria -> VARCHAR(255)
+colore carrozzeria -> VARCHAR(255) - NOTNULL
